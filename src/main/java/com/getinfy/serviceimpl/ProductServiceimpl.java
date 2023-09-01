@@ -56,7 +56,7 @@ public class ProductServiceimpl implements ProductService {
 	public List<ProductEntity> getProducts() {
 		List<ProductEntity> products = prodrepo.findAll();
 		if(products.isEmpty()) {
-			return Collections.EMPTY_LIST;
+			return Collections.emptyList();
 		}
 		return products;
 	}
