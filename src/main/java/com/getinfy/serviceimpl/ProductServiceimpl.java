@@ -1,4 +1,4 @@
-package com.getinfy.serviceimpl;
+package com.getinfy.serviceimpl
 
 import java.util.Collections;
 import java.util.List;
